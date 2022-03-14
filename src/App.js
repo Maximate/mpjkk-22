@@ -1,25 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <img src="http://placekitten.com/180/100" alt="kissa" />
+          </td>
+          <td>
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet...</p>
+          </td>
+          <td>
+            <a href="http://metropolia.fi">View</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="http://placekitten.com/150/120" alt="kissa" />
+          </td>
+          <td>
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet...</p>
+          </td>
+          <td>
+            <a href="http://metropolia.fi">View</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="http://placekitten.com/120/110" alt="kissa" />
+          </td>
+          <td>
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet...</p>
+          </td>
+          <td>
+            <a href="http://metropolia.fi">View</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   );
-}
+};
 
 export default App;
