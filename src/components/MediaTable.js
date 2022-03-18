@@ -30,8 +30,6 @@ const MediaTable = () => {
   );
 };
 
-MediaTable.propTypes = {
-  mediaArray: PropTypes.array.isRequired,
-};
+MediaTable.propTypes = {};
 
 export default MediaTable;
