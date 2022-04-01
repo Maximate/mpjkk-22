@@ -3,7 +3,6 @@ import {Navigate} from 'react-router-dom';
 import {MediaContext} from '../contexts/MediaContext';
 
 const Logout = () => {
-  // eslint-disable-next-line no-unused-vars
   const [user, setUser] = useContext(MediaContext);
   setUser(null);
   localStorage.clear();
